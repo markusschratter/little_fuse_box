@@ -237,6 +237,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp c835db3f-21ee-4375-b1e2-c858240fdab5))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 16 "Net-(D7-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp 467b023f-c462-494e-8aae-d2a2766f7847))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "39301020:CONN_5569-02A_MOL" (layer "F.Cu")
@@ -299,9 +304,14 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp 6b0d6625-1415-4183-a24d-cd26a5b47eb8))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 4 "Net-(D1-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp 6f65fa75-bd8c-4cc1-8289-ee68fe928ffd))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
-  (footprint "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB" locked (layer "F.Cu")
+  (footprint "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB" (layer "F.Cu")
     (tstamp 26cd517b-c52f-46df-a222-23d5098b0123)
     (at 42.5 -28)
     (property "Availability" "Not in stock")
@@ -381,13 +391,13 @@
       (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp a3ceea21-8904-4d5e-a100-899cd397d890))
     (fp_circle (center -43.4 -23) (end -43.2 -23)
       (stroke (width 0.4) (type solid)) (fill none) (layer "F.Fab") (tstamp e7135600-8b27-42d1-bdd9-cb6fee077002))
-    (pad "S1" thru_hole circle locked (at -39 -24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
+    (pad "S1" thru_hole circle (at -39 -24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
       (solder_mask_margin 0.102) (tstamp 97f9c23c-6c34-443f-84a6-c755ab2c0760))
-    (pad "S2" thru_hole circle locked (at 19 -24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
+    (pad "S2" thru_hole circle (at 19 -24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
       (solder_mask_margin 0.102) (tstamp e94ec55b-214b-4ed9-8d83-f20682157e74))
-    (pad "S3" thru_hole circle locked (at 19 24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
+    (pad "S3" thru_hole circle (at 19 24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
       (solder_mask_margin 0.102) (tstamp a28cfeb9-471c-4f7e-830a-802033e6d9b8))
-    (pad "S4" thru_hole circle locked (at -39 24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
+    (pad "S4" thru_hole circle (at -39 24.5) (size 6.2 6.2) (drill 2.75) (layers "*.Cu" "*.Mask")
       (solder_mask_margin 0.102) (tstamp d91eda89-21c8-4259-b52d-dd6691c5975c))
   )
 
@@ -451,6 +461,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp bde1b738-0f90-46a0-b02c-c78e3db6b5f6))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 10 "Net-(D4-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp ce2a69bc-6335-4288-bff9-1e45c552b5d6))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "39301020:CONN_5569-02A_MOL" (layer "F.Cu")
@@ -513,6 +528,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp 7aeb700c-5bed-4095-b089-e2f0e69cb848))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 6 "Net-(D2-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp 2a29b4aa-9fd6-4c11-acdf-6010a3a6fad7))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (layer "F.Cu")
@@ -639,6 +659,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp b7f25441-9950-45d4-963f-62b6c1254555))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 12 "Net-(D5-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp 9f06189b-1b6e-4fd8-becd-62fd7e225ad9))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (layer "F.Cu")
@@ -1137,6 +1162,11 @@
       (net 2 "VCC") (pinfunction "3") (pintype "unspecified") (zone_connect 2) (tstamp 7da7852b-9cdf-432c-95a3-9464286328cf))
     (pad "4" thru_hole circle (at -5.700004 -5.499999 180) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 2 "VCC") (pinfunction "4") (pintype "unspecified") (zone_connect 2) (tstamp 5ee09a67-2057-489c-a6d2-d483a2bc9805))
+    (model "${KIPRJMOD}/3dmodels/76825-0004.step"
+      (offset (xyz -25.2 -13.9 3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (layer "F.Cu")
@@ -1263,6 +1293,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp 25bee108-0540-41fa-8a94-9d5439955da9))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(D6-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp d1a662e8-3da0-4f8f-88ce-72d0039a8922))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "mega_fit:CONN_SD-76825-0100_04_MOL" (layer "F.Cu")
@@ -1329,6 +1364,11 @@
       (net 2 "VCC") (pinfunction "3") (pintype "unspecified") (zone_connect 2) (tstamp dff76848-0bc4-43ee-a626-c5e78347e244))
     (pad "4" thru_hole circle (at -5.700004 -5.499999) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 2 "VCC") (pinfunction "4") (pintype "unspecified") (zone_connect 2) (tstamp 8a29baf0-ed36-4be7-a7f7-3e61fd8cb510))
+    (model "${KIPRJMOD}/3dmodels/76825-0004.step"
+      (offset (xyz -25.2 -13.9 3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "mega_fit_stehend:CONN_SD-76829-0100_04_MOL" (layer "F.Cu")
@@ -1396,6 +1436,11 @@
       (net 2 "VCC") (pinfunction "3") (pintype "unspecified") (zone_connect 2) (tstamp 8e9e7333-dd7a-45d8-850c-a7ee4f03b638))
     (pad "4" thru_hole circle (at -5.700004 -5.700004 180) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 2 "VCC") (pinfunction "4") (pintype "unspecified") (zone_connect 2) (tstamp cf6be835-3ffe-41d8-a759-a2e91c789d12))
+    (model "${KIPRJMOD}/3dmodels/1720650004.step"
+      (offset (xyz -15.7 -0.4 13))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (footprint "39301020:CONN_5569-02A_MOL" (layer "F.Cu")
@@ -1458,6 +1503,11 @@
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp 0e2b7db3-a5a8-49eb-b669-136332031e71))
     (pad "2" thru_hole circle (at 0 -5.5118) (size 2.3622 2.3622) (drill 1.8542) (layers "*.Cu" "*.Mask")
       (net 8 "Net-(D3-Pad2)") (pintype "passive") (solder_mask_margin 0.102) (zone_connect 2) (tstamp 52060ac1-268e-4ef0-a43b-4fe177c004e8))
+    (model "${KIPRJMOD}/3dmodels/39301020.step"
+      (offset (xyz 0 -13.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (layer "F.Cu")
@@ -1757,6 +1807,11 @@
       (net 9 "Net-(D4-Pad1)") (pintype "passive") (tstamp 69936a36-800d-4bfa-aee9-e2c4638b7530))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 10 "Net-(D4-Pad2)") (pintype "passive") (tstamp 24b8f66e-3c01-4fc3-968e-b4d629646916))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
@@ -1972,6 +2027,11 @@
       (net 15 "Net-(D7-Pad1)") (pintype "passive") (tstamp 4db7847b-937e-44fd-80de-a1779476df07))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 16 "Net-(D7-Pad2)") (pintype "passive") (tstamp cc00ea9d-d1cd-44ff-84b9-04a8915a3e7f))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
@@ -2133,6 +2193,11 @@
       (net 5 "Net-(D2-Pad1)") (pintype "passive") (tstamp 984f27ab-1d5a-4b69-be97-bb51f74fad4c))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 6 "Net-(D2-Pad2)") (pintype "passive") (tstamp d38fa625-c504-47cc-b2e4-3e965050e359))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
@@ -2294,6 +2359,11 @@
       (net 13 "Net-(D6-Pad1)") (pintype "passive") (tstamp 9b4516cd-88d3-4193-83a3-9d1eebf75c52))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 14 "Net-(D6-Pad2)") (pintype "passive") (tstamp cb8a0cde-20de-4e65-8742-c1a5680e986a))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LS_A67K-J1L2-1-0-2-R33-Z:LED_LS_A67K-J1L2-1-0-2-R33-Z" (layer "B.Cu")
@@ -2401,6 +2471,11 @@
       (net 7 "Net-(D3-Pad1)") (pintype "passive") (tstamp f1ce3a00-b0db-44fb-9448-3c8da8dd1d11))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 8 "Net-(D3-Pad2)") (pintype "passive") (tstamp b3d55079-4942-43c6-a795-22f4e86616c9))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LS_A67K-J1L2-1-0-2-R33-Z:LED_LS_A67K-J1L2-1-0-2-R33-Z" (layer "B.Cu")
@@ -2424,7 +2499,7 @@
     (property "VERIFIER" "")
     (path "/10815016-85e7-441e-9fa8-4e1f5724b9b4")
     (attr smd)
-    (fp_text reference "D8" (at -1.5 2.635) (layer "B.SilkS")
+    (fp_text reference "D8" (at -1.5 2.635) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 15285d4b-0d45-4794-bc81-4c9fe12b10ca)
     )
@@ -2508,6 +2583,11 @@
       (net 17 "Net-(D8-Pad1)") (pintype "passive") (tstamp 4330e183-e680-40c9-bf73-c785d39a3b66))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 2 "VCC") (pintype "passive") (tstamp 8e189c4d-ed56-4dd2-9eca-44dc3637d091))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LS_A67K-J1L2-1-0-2-R33-Z:LED_LS_A67K-J1L2-1-0-2-R33-Z" (layer "B.Cu")
@@ -2615,6 +2695,11 @@
       (net 11 "Net-(D5-Pad1)") (pintype "passive") (tstamp 67a14484-f71a-481f-83d1-65e1b64aa3a5))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 12 "Net-(D5-Pad2)") (pintype "passive") (tstamp fd1a1712-7e0c-45eb-9d78-14732145e5ee))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
@@ -2884,6 +2969,11 @@
       (net 3 "Net-(D1-Pad1)") (pintype "passive") (tstamp 55d9fc93-b810-4b25-9210-256be2c28147))
     (pad "2" smd rect (at 1.825 0 180) (size 2.35 3) (layers "B.Cu")
       (net 4 "Net-(D1-Pad2)") (pintype "passive") (tstamp 2e175636-aaaf-4d97-ab80-7c2ac943aed6))
+    (model "${KIPRJMOD}/3dmodels/KA-4040SURSK.step"
+      (offset (xyz 0 1.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
@@ -10741,7 +10831,7 @@
   (gr_text "F5" (at 24.4094 -16.6116) (layer "F.SilkS") (tstamp 4301411b-9271-4339-b495-b6d1fd2a2c27)
     (effects (font (size 1.2 1.2) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "v1.0_2025" (at 5.059 -7.5344 90) (layer "F.SilkS") (tstamp 44e36f90-c55f-448c-9a25-470f174bb10e)
+  (gr_text "v1.1_2026" (at 5.059 -7.5344 90) (layer "F.SilkS") (tstamp 44e36f90-c55f-448c-9a25-470f174bb10e)
     (effects (font (size 0.9 0.9) (thickness 0.15) bold) (justify left bottom))
   )
   (gr_text "F7" (at 10.2362 -16.7132) (layer "F.SilkS") (tstamp 83e93333-00b2-4f83-a429-3486523f155e)

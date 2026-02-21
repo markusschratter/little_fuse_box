@@ -2898,7 +2898,7 @@
   )
 
   (symbol (lib_id "mega_fit_stehend:1720650004") (at 26.67 34.29 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9ce93b65-6b1f-4d4e-a358-f71cb56ad8aa)
     (property "Reference" "J20" (at 40.64 31.75 0)
       (effects (font (size 1.524 1.524)) (justify left))
@@ -3019,7 +3019,7 @@
   )
 
   (symbol (lib_id "mega_fit:768250004") (at 62.23 34.29 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a16683b5-bb2b-4389-9225-1f2464cb742e)
     (property "Reference" "J4" (at 76.2 31.75 0)
       (effects (font (size 1.524 1.524)) (justify left))
