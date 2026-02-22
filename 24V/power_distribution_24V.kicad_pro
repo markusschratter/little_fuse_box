@@ -69,7 +69,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.6
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -79,7 +79,68 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|81500000|0|6600e36e-bc1c-4d68-abc8-fac4693832a4|ddabbc6b-5f86-422f-82f1-f685252c8095",
+          ""
+        ],
+        [
+          "copper_edge_clearance|81664061|-55868076|742a1a68-822c-4c77-95d8-c8dd2cb73635|308f008d-d3d3-4f38-9652-6807efd0bba5",
+          ""
+        ],
+        [
+          "courtyards_overlap|20100200|-22385600|1b4df4ee-70f1-4484-9807-8ee1023e5673|26cd517b-c52f-46df-a222-23d5098b0123",
+          ""
+        ],
+        [
+          "courtyards_overlap|24888596|-39536400|26cd517b-c52f-46df-a222-23d5098b0123|3220d767-124b-45bf-af07-32230b30a0cb",
+          ""
+        ],
+        [
+          "courtyards_overlap|27822200|-39536400|3220d767-124b-45bf-af07-32230b30a0cb|8c4a3a23-df5a-4daf-b211-1ed8f1ec8ef0",
+          ""
+        ],
+        [
+          "courtyards_overlap|31332200|-56134000|26cd517b-c52f-46df-a222-23d5098b0123|8c4a3a23-df5a-4daf-b211-1ed8f1ec8ef0",
+          ""
+        ],
+        [
+          "courtyards_overlap|32749400|-22334800|26cd517b-c52f-46df-a222-23d5098b0123|3509aef1-0cb3-4b3a-a357-bd4bbddc54f9",
+          ""
+        ],
+        [
+          "courtyards_overlap|35096400|-39632400|26cd517b-c52f-46df-a222-23d5098b0123|8da3e6fb-3bb0-42cd-a312-c0e0d5ed90c3",
+          ""
+        ],
+        [
+          "courtyards_overlap|35096400|-39632400|8c4a3a23-df5a-4daf-b211-1ed8f1ec8ef0|8da3e6fb-3bb0-42cd-a312-c0e0d5ed90c3",
+          ""
+        ],
+        [
+          "courtyards_overlap|47767400|-39595600|26cd517b-c52f-46df-a222-23d5098b0123|bca032f5-77c9-4495-bcc9-d87d35596fec",
+          ""
+        ],
+        [
+          "courtyards_overlap|50699698|-22377400|26cd517b-c52f-46df-a222-23d5098b0123|d2e39eef-c070-4fbe-bd22-b72ac79c1aa3",
+          ""
+        ],
+        [
+          "courtyards_overlap|65439000|-24636000|26cd517b-c52f-46df-a222-23d5098b0123|584ab79d-eed0-4b73-a324-9006564dd917",
+          ""
+        ],
+        [
+          "courtyards_overlap|7524000|-22326600|26cd517b-c52f-46df-a222-23d5098b0123|fd07259f-a9e3-4cb4-a19e-ee4941f2096d",
+          ""
+        ],
+        [
+          "courtyards_overlap|77486800|-56245000|00320e82-c30a-4c80-90c3-55ba290e1b27|26cd517b-c52f-46df-a222-23d5098b0123",
+          ""
+        ],
+        [
+          "courtyards_overlap|9965600|-39613800|26cd517b-c52f-46df-a222-23d5098b0123|ad5acf2b-3dc5-4a9e-88bf-8d4aea34fc65",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -553,7 +614,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "power_distribution_24V.step",
+      "step": "power_distribution_24V.stl",
       "svg": "",
       "vrml": ""
     },
