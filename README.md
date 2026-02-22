@@ -83,7 +83,11 @@ little_fuse_box/
 
 ## Design Files
 
-All design files are in KiCad 8.0 format (`.kicad_sch`, `.kicad_pcb`, `.kicad_pro`). 3D STEP models are included in the `3dmodels/` directories.
+All design files are in KiCad 8.0 format (`.kicad_sch`, `.kicad_pcb`, `.kicad_pro`). 3D STEP and STL models of the boards and components are included in the `3dmodels/` directories.
+
+**3D Board Models:**
+- 12V Board: [STEP file](12V/3dmodels/power_distribution_12V.step) | [STL file](12V/3dmodels/power_distribution_12V.stl)
+- 24V Board: [STEP file](24V/3dmodels/power_distribution_24V.step) | [STL file](24V/3dmodels/power_distribution_24V.stl)
 
 **Assembly Notes**: Use appropriate automotive blade fuses, verify LED polarity, use proper wire gauge, follow Molex crimping specifications.
 
